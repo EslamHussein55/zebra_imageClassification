@@ -195,11 +195,12 @@ This repo includes a [script](https://github.com/darabigdata/IDWBotswana/blob/ma
 The script provided here takes two arguments: (1) the url list file, and (2) the location of the directory where you want the images to be stored. You can run it like this:
 
 ```bash
-> python download_images.py -u zebra_urls.txt -o ./ZEBRA/
+> python download_images.py --urls urls.txt --output images/zebra
 ```
 
 
-For classification we're also going to need a set of images that don't contain our target class, i.e. images that are NOT of zebras. A good online database for random images is the [Caltech-256 Dataset](http://www.vision.caltech.edu/Image_Datasets/Caltech256/), it contains about 30,000 images grouped into categories. You can build a "not zebra" dataset by randomly sampling images from there (make sure you avoid images from the zebra category!). Remember to randomly sample approximately the same number of "not zebra" images as "zebra" images, otherwise you'll end up with a [class imbalance problem](https://towardsdatascience.com/dealing-with-imbalanced-classes-in-machine-learning-d43d6fa19d2). 
+For classification we're also going to need a set of images that don't contain our target class, i.e. images that are NOT of zebras. Therefore, we randomly selected 400 images from [**Caltech-256 Dataset**](https://authors.library.caltech.edu/7694/).
+
 
 ### Step 3: Image classification
 
