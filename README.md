@@ -1,7 +1,7 @@
 <p align="center"><img width=30% src="https://github.com/darabigdata/IDWBotswana/blob/master/media/00000022.jpg"></p>
 
 
-# Challenge 2: Google Image Web-scraping and Classification
+# Challenge: Google Image Web-scraping and Classification
 
 In this challenge you will learn how to web-scrape images from Google and use them to train/test a Machine Leaning (ML) model. The aim is to come up with a image classification problem (cats vs dogs, people vs trees, Trump vs an orange cheeto etc), web-scrape the images and then use ML for the classification.
 
@@ -190,7 +190,7 @@ The last step will download a text file named: 'urls.txt'.
 
 ### Step 2: Download all the images
 
-This repo includes a [script](https://github.com/darabigdata/IDWBotswana/blob/master/CHALLENGE-2/download_images.py) to download all the images listed in the url file. You can also always write your own!
+This repo includes a [script](https://github.com/EslamHussein55/zebra_imageClassification/blob/master/download_images.py) to download all the images listed in the url file. You can also always write your own!
 
 The script provided here takes two arguments: (1) the url list file, and (2) the location of the directory where you want the images to be stored. You can run it like this:
 
