@@ -18,14 +18,7 @@ In this challenge you will learn how to web-scrape images from Google and use th
 * **images/others**
     * *A directory of ~400 pictures that don't contain zebras*
 
-### Dependencies
 
-* [matplotlib](https://matplotlib.org/)
-* [numpy](www.numpy.org/)
-* [scipy](https://www.scipy.org/)
-* [sklearn](scikit-learn.org/)
-* [sklearn-image](https://scikit-image.org/)
-* [requests](docs.python-requests.org/en/master/)
 
 ------
 
