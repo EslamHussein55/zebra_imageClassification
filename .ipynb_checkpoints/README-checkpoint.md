@@ -9,15 +9,13 @@ In this challenge you will learn how to web-scrape images from Google and use th
 
 * **Classify_Zebra_Images.ipynb**
     * *A jupyter notebook that implements simple machine learning to identify images of zebras*
-* **zebra_urls.txt**
+* **urls.txt**
     * *A list of urls of pictures of zebras from Google Image Search*
 * **download_images.py**
     * *Code to download images from a list of urls*
-* **get_random_images.py**
-    * *Code to randomly select pictures from the [Caltech-256 Dataset](http://www.vision.caltech.edu/Image_Datasets/Caltech256/)*
-* **zebra**
+* **images/zebra**
     * *A directory of ~400 pictures that contain zebras*
-* **nozebra**
+* **images/others**
     * *A directory of ~400 pictures that don't contain zebras*
 
 ### Dependencies
