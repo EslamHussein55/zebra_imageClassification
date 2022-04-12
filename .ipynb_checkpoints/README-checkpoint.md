@@ -109,7 +109,7 @@ function getURLParam( queryString, key ) {
 
 ```javascript
 /**
- * Generate and automatically download a txt file from the URL contents
+ * Generate and automatically download a txt file from the URL contents called "urls.txt"
  *
  * @param   {string}  contents  The contents to download
  *
@@ -119,7 +119,7 @@ function createDownload( contents ) {
     var hiddenElement = document.createElement( 'a' );
     hiddenElement.href = 'data:attachment/text,' + encodeURI( contents );
     hiddenElement.target = '_blank';
-    hiddenElement.download = 'zebra.txt';
+    hiddenElement.download = 'urls.txt';
     hiddenElement.click();
 }
 ```
